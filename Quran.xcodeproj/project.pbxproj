@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A378A9695DCE40D13BE530D /* Pods_Quran.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5E711AA0A1DDC31BEE8E2E4 /* Pods_Quran.framework */; };
+		E401C9972277378D004FD307 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401C9962277378D004FD307 /* APIService.swift */; };
+		E401C99922774091004FD307 /* PodcastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E401C99822774091004FD307 /* PodcastCell.xib */; };
+		E401C99B22774229004FD307 /* PodcastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401C99A22774229004FD307 /* PodcastCell.swift */; };
+		E401C99D22775399004FD307 /* EpisodesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401C99C22775399004FD307 /* EpisodesController.swift */; };
+		E401C99F22787387004FD307 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401C99E22787387004FD307 /* Episode.swift */; };
+		E401C9A222787469004FD307 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401C9A022787469004FD307 /* EpisodeCell.swift */; };
+		E401C9A322787469004FD307 /* EpisodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E401C9A122787469004FD307 /* EpisodeCell.xib */; };
+		E401C9A6227880CA004FD307 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401C9A5227880CA004FD307 /* String.swift */; };
+		E401C9A8227881FB004FD307 /* RSSFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401C9A7227881FB004FD307 /* RSSFeed.swift */; };
+		E401C9AB22788C64004FD307 /* PlayerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401C9A922788C64004FD307 /* PlayerDetailsView.swift */; };
+		E401C9AC22788C64004FD307 /* PlayerDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E401C9AA22788C64004FD307 /* PlayerDetailsView.xib */; };
 		E4E7B1702276D7340072B991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7B16F2276D7340072B991 /* AppDelegate.swift */; };
 		E4E7B1722276D7340072B991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E7B1712276D7340072B991 /* ViewController.swift */; };
 		E4E7B1752276D7340072B991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E7B1732276D7340072B991 /* Main.storyboard */; };
@@ -18,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		223F4BBBB513C831611273D0 /* Pods-Quran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quran.release.xcconfig"; path = "Target Support Files/Pods-Quran/Pods-Quran.release.xcconfig"; sourceTree = "<group>"; };
+		7A187A4E4FC598A52B69EE96 /* Pods-Quran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quran.debug.xcconfig"; path = "Target Support Files/Pods-Quran/Pods-Quran.debug.xcconfig"; sourceTree = "<group>"; };
+		D5E711AA0A1DDC31BEE8E2E4 /* Pods_Quran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E401C9962277378D004FD307 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E401C99822774091004FD307 /* PodcastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastCell.xib; sourceTree = "<group>"; };
+		E401C99A22774229004FD307 /* PodcastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastCell.swift; sourceTree = "<group>"; };
+		E401C99C22775399004FD307 /* EpisodesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesController.swift; sourceTree = "<group>"; };
+		E401C99E22787387004FD307 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		E401C9A022787469004FD307 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		E401C9A122787469004FD307 /* EpisodeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeCell.xib; sourceTree = "<group>"; };
+		E401C9A5227880CA004FD307 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		E401C9A7227881FB004FD307 /* RSSFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeed.swift; sourceTree = "<group>"; };
+		E401C9A922788C64004FD307 /* PlayerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsView.swift; sourceTree = "<group>"; };
+		E401C9AA22788C64004FD307 /* PlayerDetailsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerDetailsView.xib; sourceTree = "<group>"; };
 		E4E7B16C2276D7340072B991 /* Quran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quran.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E7B16F2276D7340072B991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4E7B1712276D7340072B991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,17 +61,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A378A9695DCE40D13BE530D /* Pods_Quran.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A241C90E17414871A394444 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A187A4E4FC598A52B69EE96 /* Pods-Quran.debug.xcconfig */,
+				223F4BBBB513C831611273D0 /* Pods-Quran.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3354DE32C81EA52F7965C093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5E711AA0A1DDC31BEE8E2E4 /* Pods_Quran.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E401C99522773756004FD307 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E401C9962277378D004FD307 /* APIService.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E401C9A4227880B2004FD307 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				E401C9A5227880CA004FD307 /* String.swift */,
+				E401C9A7227881FB004FD307 /* RSSFeed.swift */,
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
 		E4E7B1632276D7340072B991 = {
 			isa = PBXGroup;
 			children = (
 				E4E7B16E2276D7340072B991 /* Quran */,
 				E4E7B16D2276D7340072B991 /* Products */,
+				2A241C90E17414871A394444 /* Pods */,
+				3354DE32C81EA52F7965C093 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +123,8 @@
 		E4E7B16E2276D7340072B991 /* Quran */ = {
 			isa = PBXGroup;
 			children = (
+				E401C9A4227880B2004FD307 /* New Group1 */,
+				E401C99522773756004FD307 /* New Group */,
 				E4E7B187227712920072B991 /* View */,
 				E4E7B186227712890072B991 /* Model */,
 				E4E7B183227711DB0072B991 /* Controllers */,
@@ -78,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				E4E7B184227711F20072B991 /* PodCastsSearchController.swift */,
+				E401C99C22775399004FD307 /* EpisodesController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -86,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				E4E7B1882277129F0072B991 /* PodCast.swift */,
+				E401C99E22787387004FD307 /* Episode.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +160,12 @@
 		E4E7B187227712920072B991 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E401C99822774091004FD307 /* PodcastCell.xib */,
+				E401C99A22774229004FD307 /* PodcastCell.swift */,
+				E401C9A022787469004FD307 /* EpisodeCell.swift */,
+				E401C9A922788C64004FD307 /* PlayerDetailsView.swift */,
+				E401C9A122787469004FD307 /* EpisodeCell.xib */,
+				E401C9AA22788C64004FD307 /* PlayerDetailsView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4E7B17E2276D73A0072B991 /* Build configuration list for PBXNativeTarget "Quran" */;
 			buildPhases = (
+				3AC3D3EBE6A9D5958E5DB4D9 /* [CP] Check Pods Manifest.lock */,
 				E4E7B1682276D7340072B991 /* Sources */,
 				E4E7B1692276D7340072B991 /* Frameworks */,
 				E4E7B16A2276D7340072B991 /* Resources */,
+				68533416D5AA8B9C01354747 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,24 +230,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E401C9AC22788C64004FD307 /* PlayerDetailsView.xib in Resources */,
 				E4E7B17A2276D73A0072B991 /* LaunchScreen.storyboard in Resources */,
 				E4E7B1772276D73A0072B991 /* Assets.xcassets in Resources */,
+				E401C9A322787469004FD307 /* EpisodeCell.xib in Resources */,
+				E401C99922774091004FD307 /* PodcastCell.xib in Resources */,
 				E4E7B1752276D7340072B991 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AC3D3EBE6A9D5958E5DB4D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quran-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68533416D5AA8B9C01354747 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quran/Pods-Quran-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quran/Pods-Quran-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4E7B1682276D7340072B991 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E401C9A8227881FB004FD307 /* RSSFeed.swift in Sources */,
+				E401C9AB22788C64004FD307 /* PlayerDetailsView.swift in Sources */,
 				E4E7B185227711F30072B991 /* PodCastsSearchController.swift in Sources */,
+				E401C9A6227880CA004FD307 /* String.swift in Sources */,
 				E4E7B1722276D7340072B991 /* ViewController.swift in Sources */,
 				E4E7B1702276D7340072B991 /* AppDelegate.swift in Sources */,
+				E401C99D22775399004FD307 /* EpisodesController.swift in Sources */,
 				E4E7B1892277129F0072B991 /* PodCast.swift in Sources */,
+				E401C9A222787469004FD307 /* EpisodeCell.swift in Sources */,
+				E401C9972277378D004FD307 /* APIService.swift in Sources */,
 				E4E7B1822276D76B0072B991 /* MainTabBarController.swift in Sources */,
+				E401C99F22787387004FD307 /* Episode.swift in Sources */,
+				E401C99B22774229004FD307 /* PodcastCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +453,7 @@
 		};
 		E4E7B17F2276D73A0072B991 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A187A4E4FC598A52B69EE96 /* Pods-Quran.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -334,6 +472,7 @@
 		};
 		E4E7B1802276D73A0072B991 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223F4BBBB513C831611273D0 /* Pods-Quran.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

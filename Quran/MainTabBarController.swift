@@ -23,7 +23,7 @@ class MainTabBarController: UITabBarController{
     func setupViewControllers(){
         viewControllers = [
             generateNavigationController(for: PodCastsSearchController(), title: "Search", image: #imageLiteral(resourceName: "search")),
-            generateNavigationController(for: PodCastsSearchController(), title: "Favorites", image: #imageLiteral(resourceName: "play")),
+            generateNavigationController(for: PodCastsSearchController(), title: "Favorites", image: #imageLiteral(resourceName: "play-1")),
             generateNavigationController(for: PodCastsSearchController(), title: "Downloads", image: #imageLiteral(resourceName: "downloads"))
         ]
     }
